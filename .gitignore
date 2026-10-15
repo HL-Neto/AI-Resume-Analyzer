@@ -1,0 +1,28 @@
+# Segredos e arquivos de ambiente
+env
+.env
+.env.*
+**/.env
+**/credentials.json
+**/token.json
+**/firebase-service-account.json
+
+# Ambientes virtuais Python
+venv/
+.venv/
+env/
+backend/venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+
+# Logs
+*.log
