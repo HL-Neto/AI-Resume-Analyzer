@@ -2,10 +2,10 @@ import os
 import firebase_admin
 import base64
 
-from pypdf                       import PdfReader
-from authentication.conect_gmail import conectar_gmail
-from dotenv                      import load_dotenv
-from firebase_admin              import credentials, firestore
+from pypdf                              import PdfReader
+from BACK.authentication.conect_gmail   import conectar_gmail
+from dotenv                             import load_dotenv
+from firebase_admin                     import credentials, firestore
 
 
 load_dotenv()

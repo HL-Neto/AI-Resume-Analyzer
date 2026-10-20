@@ -2,7 +2,7 @@ import os
 import hashlib
 
 from dotenv                   import load_dotenv
-from modules.modules          import fb_get_curriculum
+from BACK.modules.modules     import fb_get_curriculum
 from pinecone                 import Pinecone
 from pinecone                 import ServerlessSpec
 from langchain_pinecone       import PineconeVectorStore

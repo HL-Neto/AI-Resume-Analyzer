@@ -1,5 +1,5 @@
 
-from modules.modules import gmail_inbox , attachment , fb_send_curriculum , get_curriculum
+from BACK.modules.modules import gmail_inbox , attachment , fb_send_curriculum , get_curriculum
 
 
 subject_curriculo = [

@@ -25,7 +25,7 @@ def conectar_gmail():
 
         else:
             flow = InstalledAppFlow.from_client_secrets_file(
-                "BACK/credentials.json",
+                "credentials.json",
                 SCOPES
             )
 
